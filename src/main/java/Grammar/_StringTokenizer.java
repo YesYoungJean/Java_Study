@@ -16,6 +16,7 @@ public class _StringTokenizer {
         StringTokenizer st1 = new StringTokenizer(str, sep);
         StringTokenizer st2 = new StringTokenizer(str, sep, true);
 
+        //실습
         System.out.println("-----sep not included-----");
         while(st1.hasMoreTokens()){
             System.out.println(st1.nextToken());
