@@ -52,6 +52,7 @@ public class _MapSet {
         
         //문법
         System.out.println(map.get("박지성"));
+        //true / false return
         System.out.println(map.containsKey("김병지"));
         System.out.println(map.containsValue(777));
         System.out.println(map.containsValue(444));
