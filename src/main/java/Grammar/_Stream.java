@@ -12,6 +12,9 @@ public class _Stream {
          * @ 2023-08-04
          * */
 
+        //그렇다면 stream은 왜 사용할까?
+        //>>> 1) 가독성 by Lambda &&
+        //>>> 2) Collection으로 넘겨 병렬 처리 가능
         List<String> list = Arrays.asList("a", "b", "c");
         //Stream 객체 생성
         Stream<String> stream = list.stream();
